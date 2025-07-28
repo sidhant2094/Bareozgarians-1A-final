@@ -39,9 +39,21 @@ Each module is laser-focused on a specific task:
 
 * **No models**, no external dependencies, no cloud APIs and no external libararies used.
 
+
+
 ## How to Build and Run
 
 The solution is containerized with Docker and has no external network dependencies at runtime.
+
+
+### **->Create Input & Output file**
+As empty folders cant be upoaded on github so make the input and output folder yourself before running.
+
+You can use this command or make the folders manually.
+```
+mkdir -p 1A/input 1A/output
+```
+
 
 ### **->Build the Docker Image**
 
